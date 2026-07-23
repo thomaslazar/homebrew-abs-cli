@@ -1,26 +1,26 @@
 class AbsCli < Formula
   desc "Command-line interface for Audiobookshelf"
   homepage "https://github.com/thomaslazar/abs-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.0/abs-cli-osx-arm64"
-      sha256 "43312e9f22ee7906ddd6d22b52b36481e12fb3ae3bc97122f701135485f66119"
+      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.1/abs-cli-osx-arm64"
+      sha256 "c37d2e077f813f4fb31f29b3a470acc156f9b32d05499919eb6ba00b4637b774"
     else
-      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.0/abs-cli-osx-x64"
-      sha256 "a50ff2d0de3ab774a2c519a3127cfe55de54048acec1afc06a0b2fccdbbf6c19"
+      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.1/abs-cli-osx-x64"
+      sha256 "9c87e6ba7b6ce2348b300dc39c3e814f48123e1045aee02cbdb3265eb830e93f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.0/abs-cli-linux-arm64"
-      sha256 "88de4cc29af56730684d28dabb9ece8345224d42ae71fb70aafee17aa348db65"
+      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.1/abs-cli-linux-arm64"
+      sha256 "e275a31031e94e5fec65d395125fd8c02aae85aad235accc83ac4ae4d3af0c73"
     else
-      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.0/abs-cli-linux-x64"
-      sha256 "e98a9ade4fd7aa4bf485e50dc6167d276586894c63c563f3c5ed27b325e9822f"
+      url "https://github.com/thomaslazar/abs-cli/releases/download/v1.0.1/abs-cli-linux-x64"
+      sha256 "2e436ccf20e97a7ac7fc91c3bc79eff3bf3ecbc26182fd8e4ba95cd67679f604"
     end
   end
 
